@@ -1,4 +1,5 @@
 **MedImager**
+===================
 
 # About
 MedImager is a web application created for the purpose of easing the ability to study images of oral diseases and teeth for oral experts and
