@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+# MedImager
 
-You can use the [editor on GitHub](https://github.com/Dazing/MedImager/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# About
+MedImager is a web application with the purpose of easing the ability to study oral diseases and teeth for oral experts and
+students. The application is developed on demand from Sahlgrenska akademin and is built upon an already existing database containing 70 000 images.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dazing/MedImager/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# Project structure
+MedImager consists of a front- and back-end. The front-end is put together with both traditional web development methods, such as HTML, CSS and Javascript, but also modern frameworks, such as Angular, SASS, Jquery and Materialize. The back-end is written in Java and utilizies the Java library MedView core to manage the database. Communication
+between front- and back-end is accomplished through a REST API developed using the framework Jersey. The data communicated is in the format JSON.
